@@ -10,32 +10,37 @@ import cpw.mods.fml.common.network.IGuiHandler;
 import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.common.registry.LanguageRegistry;
 
-public class ExampleModCommonProxy implements IGuiHandler { // THIS IS
-															// IMPORTANT, CANNOT
-															// BE A PROXY/GUI
-															// HANDLER WITHOUT
-															// THIS!!
+public class ExampleModCommonProxy implements IGuiHandler
+{ // THIS IS
+	// IMPORTANT, CANNOT
+	// BE A PROXY/GUI
+	// HANDLER WITHOUT
+	// THIS!!
 	public void registerRenderInformation() // Client side texture registering
 	{
 	}
-
+	
 	@Override
 	public Object getServerGuiElement(int ID, EntityPlayer player, World world,
-			int x, int y, int z) { // For GUI's
+			int x, int y, int z)
+	{ // For GUI's
 		return null;
 	}
-
+	
 	@Override
 	public Object getClientGuiElement(int ID, EntityPlayer player, World world,
-			int x, int y, int z) { // For GUI's
+			int x, int y, int z)
+	{ // For GUI's
 		return null;
 	}
-
-	public void registerTiles() { // For registering TileEntities
+	
+	public void registerTiles()
+	{ // For registering TileEntities
 	}
-
-	public void registerBlocks() { // For registering Blocks
-	// Limestone
+	
+	public void registerBlocks()
+	{ // For registering Blocks
+		// Limestone
 		GameRegistry.registerBlock(ExampleMod.Limestone, "Limestone");// Needed
 																		// for
 																		// all
@@ -43,8 +48,9 @@ public class ExampleModCommonProxy implements IGuiHandler { // THIS IS
 		LanguageRegistry.addName(ExampleMod.Limestone, "Limestone Block");// In-game
 																			// name
 	}
-
-	public void registerItems() { // For registering Items
-
+	
+	public void registerItems()
+	{ // For registering Items
+	
 	}
 }
