@@ -35,6 +35,13 @@ public class ExampleModCommonProxy implements IGuiHandler { // THIS IS
 	}
 
 	public void registerBlocks() { // For registering Blocks
+	// Limestone
+		GameRegistry.registerBlock(ExampleMod.Limestone, "Limestone");// Needed
+																		// for
+																		// all
+																		// blocks
+		LanguageRegistry.addName(ExampleMod.Limestone, "Limestone Block");// In-game
+																			// name
 	}
 
 	public void registerItems() { // For registering Items

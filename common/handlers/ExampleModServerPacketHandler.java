@@ -1,4 +1,4 @@
-package evar678.ExampleMod.common;
+package evar678.ExampleMod.common.handlers;
 
 import java.io.ByteArrayInputStream;
 import java.io.DataInputStream;
