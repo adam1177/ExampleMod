@@ -20,6 +20,7 @@ public class StoneBlockVariant extends Block
 		
 		this.setHardness(hardness);
 		this.setCreativeTab(tab);
+		
 		texture = texPath;
 	}
 	

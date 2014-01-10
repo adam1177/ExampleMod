@@ -80,6 +80,59 @@ public class RunebrineCommonProxy implements IGuiHandler
 		//Double Slabs
 		GameRegistry.registerBlock(Runebrine.BasaltDoubleSlab, "BasaltSlabDouble");
 		
+		//Stairs
+		GameRegistry.registerBlock(Runebrine.BasaltStair, "BasaltStair");
+		GameRegistry.registerBlock(Runebrine.ChalkStair, "ChalkStair");
+		GameRegistry.registerBlock(Runebrine.ChertStair, "ChertStair");
+		GameRegistry.registerBlock(Runebrine.FieldsparStair, "FieldsparStair");
+		GameRegistry.registerBlock(Runebrine.SandstoneStair, "SandstoneStair");
+		GameRegistry.registerBlock(Runebrine.ShaleStair, "ShaleStair");
+		GameRegistry.registerBlock(Runebrine.MouldstoneStair, "MouldstoneStair");
+		GameRegistry.registerBlock(Runebrine.ClaystoneStair, "ClaystoneStair");
+		GameRegistry.registerBlock(Runebrine.SiltstoneStair, "SiltstoneStair");
+		GameRegistry.registerBlock(Runebrine.brownSandstoneStair, "BrownSandstoneStair");
+		GameRegistry.registerBlock(Runebrine.MarbleStair, "MarbleStair");
+		GameRegistry.registerBlock(Runebrine.LimestoneStair, "LimestoneStair");
+		GameRegistry.registerBlock(Runebrine.GneissStair, "GneissStair");
+		GameRegistry.registerBlock(Runebrine.blackMarbleStair, "BlackMarbleStair");
+		GameRegistry.registerBlock(Runebrine.GraniteStair, "GraniteStair");
+		
+		//Fences
+		GameRegistry.registerBlock(Runebrine.BasaltFence, "BasaltFence");
+		GameRegistry.registerBlock(Runebrine.ChalkFence, "ChalkFence");
+		GameRegistry.registerBlock(Runebrine.ChertFence, "ChertFence");
+		GameRegistry.registerBlock(Runebrine.FieldsparFence, "FieldsparFence");
+		GameRegistry.registerBlock(Runebrine.SandstoneFence, "SandstoneFence");
+		GameRegistry.registerBlock(Runebrine.ShaleFence, "ShaleFence");
+		GameRegistry.registerBlock(Runebrine.MouldstoneFence, "MouldstoneFence");
+		GameRegistry.registerBlock(Runebrine.ClaystoneFence, "ClaystoneFence");
+		GameRegistry.registerBlock(Runebrine.SiltstoneFence, "SiltstoneFence");
+		GameRegistry.registerBlock(Runebrine.brownSandstoneFence, "BrownSandstoneFence");
+		GameRegistry.registerBlock(Runebrine.MarbleFence, "MarbleFence");
+		GameRegistry.registerBlock(Runebrine.LimestoneFence, "LimestoneFence");
+		GameRegistry.registerBlock(Runebrine.GneissFence, "GneissFence");
+		GameRegistry.registerBlock(Runebrine.blackMarbleFence, "BlackMarbleFence");
+		GameRegistry.registerBlock(Runebrine.GraniteFence, "GraniteFence");
+		
+		//Walls
+		GameRegistry.registerBlock(Runebrine.BasaltWall, "BasaltWall");
+		GameRegistry.registerBlock(Runebrine.ChalkWall, "ChalkWall");
+		GameRegistry.registerBlock(Runebrine.ChertWall, "ChertWall");
+		GameRegistry.registerBlock(Runebrine.FieldsparWall, "FieldsparWall");
+		GameRegistry.registerBlock(Runebrine.SandstoneWall, "SandstoneWall");
+		GameRegistry.registerBlock(Runebrine.ShaleWall, "ShaleWall");
+		GameRegistry.registerBlock(Runebrine.MouldstoneWall, "MouldstoneWall");
+		GameRegistry.registerBlock(Runebrine.ClaystoneWall, "ClaystoneWall");
+		GameRegistry.registerBlock(Runebrine.SiltstoneWall, "SiltstoneWall");
+		GameRegistry.registerBlock(Runebrine.brownSandstoneWall, "BrownSandstoneWall");
+		GameRegistry.registerBlock(Runebrine.MarbleWall, "MarbleWall");
+		GameRegistry.registerBlock(Runebrine.LimestoneWall, "LimestoneWall");
+		GameRegistry.registerBlock(Runebrine.GneissWall, "GneissWall");
+		GameRegistry.registerBlock(Runebrine.blackMarbleWall, "BlackMarbleWall");
+		GameRegistry.registerBlock(Runebrine.GraniteWall, "GraniteWall");
+		
+		
+		
 		
 		//Full Blocks
 		LanguageRegistry.addName(Runebrine.Basalt, "Basalt Block");
@@ -119,6 +172,57 @@ public class RunebrineCommonProxy implements IGuiHandler
 		//Double Slabs
 		LanguageRegistry.addName(Runebrine.BasaltDoubleSlab, "Basalt Double Slab");
 		
+		//Stairs
+		LanguageRegistry.addName(Runebrine.BasaltStair, "Basalt Stair");
+		LanguageRegistry.addName(Runebrine.ChalkStair, "Chalk Stair");
+		LanguageRegistry.addName(Runebrine.ChertStair, "Chert Stair");
+		LanguageRegistry.addName(Runebrine.FieldsparStair, "Fieldspar Stair");
+		LanguageRegistry.addName(Runebrine.SandstoneStair, "Sandstone Stair");
+		LanguageRegistry.addName(Runebrine.ShaleStair, "Shale Stair");
+		LanguageRegistry.addName(Runebrine.MouldstoneStair, "Mouldstone Stair");
+		LanguageRegistry.addName(Runebrine.ClaystoneStair, "Claystone Stair");
+		LanguageRegistry.addName(Runebrine.SiltstoneStair, "Siltstone Stair");
+		LanguageRegistry.addName(Runebrine.brownSandstoneStair, "Brown Sandstone Stair");
+		LanguageRegistry.addName(Runebrine.MarbleStair, "Marble Stair");
+		LanguageRegistry.addName(Runebrine.LimestoneStair, "Limestone Stair");
+		LanguageRegistry.addName(Runebrine.GneissStair, "Gneiss Stair");
+		LanguageRegistry.addName(Runebrine.blackMarbleStair, "Black Marble Stair");
+		LanguageRegistry.addName(Runebrine.GraniteStair, "Granite Stair");
+		
+		//Fences
+		LanguageRegistry.addName(Runebrine.BasaltFence, "Basalt Fence");
+		LanguageRegistry.addName(Runebrine.ChalkFence, "Chalk Fence");
+		LanguageRegistry.addName(Runebrine.ChertFence, "Chert Fence");
+		LanguageRegistry.addName(Runebrine.FieldsparFence, "Fieldspar Fence");
+		LanguageRegistry.addName(Runebrine.SandstoneFence, "Sandstone Fence");
+		LanguageRegistry.addName(Runebrine.ShaleFence, "Shale Fence");
+		LanguageRegistry.addName(Runebrine.MouldstoneFence, "Mouldstone Fence");
+		LanguageRegistry.addName(Runebrine.ClaystoneFence, "Claystone Fence");
+		LanguageRegistry.addName(Runebrine.SiltstoneFence, "Siltstone Fence");
+		LanguageRegistry.addName(Runebrine.brownSandstoneFence, "Brown Sandstone Fence");
+		LanguageRegistry.addName(Runebrine.MarbleFence, "Marble Fence");
+		LanguageRegistry.addName(Runebrine.LimestoneFence, "Limestone Fence");
+		LanguageRegistry.addName(Runebrine.GneissFence, "Gneiss Fence");
+		LanguageRegistry.addName(Runebrine.blackMarbleFence, "Black Marble Fence");
+		LanguageRegistry.addName(Runebrine.GraniteFence, "Granite Fence");
+		
+		//Walls
+		LanguageRegistry.addName(Runebrine.BasaltWall, "Basalt Wall");
+		LanguageRegistry.addName(Runebrine.ChalkWall, "Chalk Wall");
+		LanguageRegistry.addName(Runebrine.ChertWall, "Chert Wall");
+		LanguageRegistry.addName(Runebrine.FieldsparWall, "Fieldspar Wall");
+		LanguageRegistry.addName(Runebrine.SandstoneWall, "Sandstone Wall");
+		LanguageRegistry.addName(Runebrine.ShaleWall, "Shale Wall");
+		LanguageRegistry.addName(Runebrine.MouldstoneWall, "Mouldstone Wall");
+		LanguageRegistry.addName(Runebrine.ClaystoneWall, "Claystone Wall");
+		LanguageRegistry.addName(Runebrine.SiltstoneWall, "Siltstone Wall");
+		LanguageRegistry.addName(Runebrine.brownSandstoneWall, "Brown Sandstone Wall");
+		LanguageRegistry.addName(Runebrine.MarbleWall, "Marble Wall");
+		LanguageRegistry.addName(Runebrine.LimestoneWall, "Limestone Wall");
+		LanguageRegistry.addName(Runebrine.GneissWall, "Gneiss Wall");
+		LanguageRegistry.addName(Runebrine.blackMarbleWall, "Black Marble Wall");
+		LanguageRegistry.addName(Runebrine.GraniteWall, "Granite Wall");
+
 		
 		//GameRegistry.addRecipe(new ItemStack(Runebrine.Limestone), "MMM", "ADA", "MDM", Character.valueOf('M'), Block.stone, Character.valueOf('A'), Runebrine.Lime, Character.valueOf('D'), Item.stick);
 		//GameRegistry.addSmelting(Runebrine.Limestone.blockID, new ItemStack(Runebrine.Lime), 0.1F);
