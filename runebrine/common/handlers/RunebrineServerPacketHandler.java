@@ -1,4 +1,4 @@
-package evar678.ExampleMod.common.handlers;
+package evar678.runebrine.common.handlers;
 
 import java.io.ByteArrayInputStream;
 import java.io.DataInputStream;
@@ -9,7 +9,7 @@ import net.minecraft.network.packet.Packet250CustomPayload;
 import cpw.mods.fml.common.network.IPacketHandler;
 import cpw.mods.fml.common.network.Player;
 
-public class ExampleModServerPacketHandler implements IPacketHandler
+public class RunebrineServerPacketHandler implements IPacketHandler
 {
 	
 	@Override

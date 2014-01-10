@@ -1,4 +1,4 @@
-package evar678.ExampleMod.common.handlers;
+package evar678.runebrine.common.handlers;
 
 import java.io.ByteArrayInputStream;
 import java.io.DataInputStream;
@@ -12,7 +12,7 @@ import cpw.mods.fml.common.network.Player;
 import cpw.mods.fml.relauncher.*;
 
 @SideOnly(Side.CLIENT)
-public class ExampleModClientPacketHandler implements IPacketHandler
+public class RunebrineClientPacketHandler implements IPacketHandler
 {
 	
 	@Override
